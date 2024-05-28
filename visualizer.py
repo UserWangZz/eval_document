@@ -19,7 +19,7 @@ from __future__ import unicode_literals
 
 import os
 import sys
-sys.path.append('/paddle/PaddleDetection')
+sys.path.append('{Path of PaddleDetection}')
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import cv2

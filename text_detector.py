@@ -1,6 +1,6 @@
 import sys
 from typing import Any
-sys.path.append('/paddle/PaddleOCR')
+sys.path.append('{path of PaddleOCR}')
 import os
 import yaml
 import paddle

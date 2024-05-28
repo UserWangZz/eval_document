@@ -10,7 +10,7 @@ import os
 import typing
 import glob
 
-sys.path.append('/paddle/PaddleDetection')
+sys.path.append('{path of PaddleDetection}')
 
 import argparse
 

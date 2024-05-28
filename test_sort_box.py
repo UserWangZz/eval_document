@@ -74,7 +74,7 @@ if __name__ == '__main__':
             {'image_id': 0, 'category_id': 3, 'bbox': [1229.297607421875, 1469.37255859375, 967.80126953125, 3929.927734375], 'score': 0.9577386975288391, 'category_name': 'text'}, 
             {'image_id': 0, 'category_id': 3, 'bbox': [248.0453643798828, 2898.317138671875, 952.8116912841797, 2427.250732421875], 'score': 0.9501455426216125, 'category_name': 'text'}
         ]
-    img = Image.open('/paddle/eval_doc/reader/image/read_16.jpg')
+    img = Image.open('{An image path}')
     width = img.size[0]  # 图片宽度 3240 高度 5760
     res = sorted_layout_boxes(bbox, width)
     print(res)

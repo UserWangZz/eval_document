@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append('/paddle/PaddleOCR')
-sys.path.append('/paddle/PaddleDetection')
+sys.path.append('{path of PaddleOCR}')
+sys.path.append('{path of PaddleDetection}')
 import argparse
 import ast
 import cv2
